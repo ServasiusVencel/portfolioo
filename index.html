@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +36,9 @@
                             <li class="group">
                                 <a href="#sertifikat" class="text-base text-black py-2 mx-8 group-hover:text-teal-600">Sertifikat</a>
                             </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-black py-2 mx-8 group-hover:text-teal-600">Project</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -57,11 +60,11 @@
                 </div>
                 <div class="w-full place-self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-9 lg:right-0">
-                        <img src="dist/img/q.png" alt="Servasius Vencel" class="max-w-auto mx-auto">
+                        <img src="dist/img/s.png" alt="Servasius Vencel" class="max-w-auto mx-auto">
 
-                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125 sm:my-15">
                             <svg width="800" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="rgb(13 148 136)" d="M40.6,-59.4C52.3,-47.5,61.1,-35.1,62.5,-22.3C63.8,-9.6,57.7,3.6,54.6,19.1C51.5,34.6,51.3,52.5,42.7,59.8C34.1,67.1,17,63.9,0.6,63C-15.8,62.2,-31.5,63.6,-43.8,57.5C-56,51.3,-64.7,37.6,-72.4,21.7C-80,5.8,-86.6,-12.2,-79.6,-23.4C-72.5,-34.5,-51.9,-38.7,-36.4,-49.4C-20.8,-60.1,-10.4,-77.3,2,-80.1C14.5,-82.9,29,-71.4,40.6,-59.4Z" transform="translate(100 100) scale(1.2)" />
+                                <path fill="rgb(13 148 136)" d="M40.6,-59.4C52.3,-47.5,61.1,-35.1,62.5,-22.3C63.8,-9.6,57.7,3.6,54.6,19.1C51.5,34.6,51.3,52.5,42.7,59.8C34.1,67.1,17,63.9,0.6,63C-15.8,62.2,-31.5,63.6,-43.8,57.5C-56,51.3,-64.7,37.6,-72.4,21.7C-80,5.8,-86.6,-12.2,-79.6,-23.4C-72.5,-34.5,-51.9,-38.7,-36.4,-49.4C-20.8,-60.1,-10.4,-77.3,2,-80.1C14.5,-82.9,29,-71.4,40.6,-59.4Z" transform="translate(100 100) scale(1.1)" />
                               </svg>
                         </span>
                     </div>
@@ -71,16 +74,17 @@
     </section>
     <!-- section end -->
     <!-- About section start -->
-    <section id="about" class="px-5 mb-10">
+    <section id="" class="px-5 mb-10">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-1 mb-10">
-                    <h4 class="font-bold uppercase text-teal-600 text-lg mb-3">About me</h4>
-                    <p class="font-semibold leading-relaxed text-black">Halo, nama saya Servasius Vencel, dipanggil vencel saya sekarang merupakan siswa kelas 11 dari SMK Wikrama Bogor. saat ini sedang berfokus di bidang backend seperti api dan database</p>
+                    <h4 class="font-bold uppercase text-teal-600 text-lg mb-3" id="about">About me</h4>
+                    <p class="font-semibold leading-relaxed text-black">Halo, nama saya Servasius Vencel, dipanggil vencel, saya lahir di Bogor 22 Desember 2007. Saya sekarang merupakan siswa kelas 11 dari SMK Wikrama Bogor. saat ini sedang berfokus di bidang backend seperti api dan database</p>
 
                 </div>
                 <div id="contact" class="w-full px-1">
                     <h3 class="font-bold uppercase text-teal-600 text-lg mb-3">Contact me at</h3>
+                    <p class="font-bold">Jika tertarik maka hubungi : </p>
                     <p class="font-bold leading-relaxed">Sosial media saya: </p>
                     <a href="https://wa.me/6281213795928" target="_blank"><i class="fa-brands fa-whatsapp text-5xl justify-self-auto"></i></a>
                     <a href="https://www.instagram.com/servasiusv/" target="_blank"><i class="fa-brands fa-instagram text-5xl justify-self-auto"></i></a>
@@ -149,6 +153,44 @@
         </div>
     </section>
     <!-- sertifikat end -->
+    <!-- Portfolio start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-bold text-2xl text-teal-600">Portfolio</h4>
+                    <p>Projek yang selama ini dikerjakan :  </p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-ms overflow-hidden">
+                        <img src="dist/portfolio/apotek.png" alt="ProjectApotek" class="lg:w-9/12 h-3/5 sm:w-full">
+                    </div>
+                    <h3 class="font-bold text-black text-2xl justify-self-auto mt-3">Projek apotek</h3>
+                    <p class="font-semibold text-black text-lg justify-self-auto">Projek apotek yang terdapat 2 role yaitu kasir dan admin dan memiliki peran yang berbeda juga</p>
+                    <p class="font-medium text-slate-800 justify-self-auto mb-6">created with:</p>
+                    <i class="fa-brands fa-laravel text-2xl"></i>
+                    <i class="fa-brands fa-php text-2xl"></i>
+                    <i class="fa-solid fa-database text-2xl"></i>
+
+                    <div class="rounded-md shadow-ms overflow-hidden mt-12">
+                        <img src="dist/portfolio/vue.png" alt="Projectvue" class="lg:w-9/12 h-3/5 sm:w-full">
+                    </div>
+                    <h3 class="font-bold text-black text-2xl justify-self-auto mt-3">Projek Kantor</h3>
+                    <p class="font-semibold text-black text-lg justify-self-auto">Projek kantor yang terkoneksi api dengan laravel</p>
+                    <p class="font-medium text-slate-800 justify-self-auto mb-6">created with:</p>
+                    <i class="fa-brands fa-laravel text-2xl"></i>
+                    <i class="fa-brands fa-vuejs text-2xl"></i>
+                    <i class="fa-brands fa-js text-2xl"></i>
+                    <i class="fa-solid fa-database text-2xl"></i>
+                </div>
+                
+                
+            </div>              
+        </div>
+    <!-- Portfolio end -->
     <script src="dist/js/script.js"></script>
     <script src="https://kit.fontawesome.com/ea623d6bd7.js" crossorigin="anonymous"></script>
 </body>
