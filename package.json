@@ -74,11 +74,14 @@
     "to-regex-range": "^5.0.1",
     "ts-interface-checker": "^0.1.13",
     "util-deprecate": "^1.0.2",
+    "vite": "^6.0.7",
     "wrappy": "^1.0.2",
     "yaml": "^2.3.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
